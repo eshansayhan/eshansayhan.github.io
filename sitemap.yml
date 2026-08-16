@@ -1,0 +1,46 @@
+name: Generate Sitemap
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+
+  sitemap:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Repository'i indir
+        uses: actions/checkout@v4
+
+      - name: Python kur
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Sitemap oluştur
+        run: |
+          python scripts/generate_sitemap.py
+
+      - name: Sitemap'i commit et
+        run: |
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add sitemap.xml
+
+          if git diff --cached --quiet; then
+            echo "Sitemap değişmedi."
+          else
+            git commit -m "Update sitemap"
+            git push
+          fi
