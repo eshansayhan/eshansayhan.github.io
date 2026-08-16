@@ -1,0 +1,43 @@
+# Eshan Sayhan
+
+/* TEAM */
+
+Name: Eshan Sayhan
+Role: Website Owner / Content Creator
+Website: https://eshansayhan.github.io/
+TikTok: https://www.tiktok.com/@eshansayhan
+GitHub: https://github.com/eshansayhan
+
+
+/* SITE */
+
+Site Name: Eshan Sayhan
+Site URL: https://eshansayhan.github.io/
+Language: Turkish
+Platform: GitHub Pages
+Content: Biography, TikTok profile and video pages
+
+
+/* CONTENT */
+
+This website is the official web presence of Eshan Sayhan.
+
+The website contains information about Eshan Sayhan,
+official social media profiles and TikTok video pages.
+
+
+/* SOCIAL PROFILES */
+
+TikTok: https://www.tiktok.com/@eshansayhan
+GitHub: https://github.com/eshansayhan
+
+
+/* TECHNOLOGY */
+
+Hosting: GitHub Pages
+Website: HTML / CSS / JSON-LD
+
+
+/* LAST UPDATE */
+
+2026
