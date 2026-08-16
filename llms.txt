@@ -1,0 +1,88 @@
+# Eshan Sayhan
+
+> Eshan Sayhan'ın resmi kişisel web sitesi.
+
+## Identity
+
+- Name: Eshan Sayhan
+- Username: @eshansayhan
+- Official Website: https://eshansayhan.github.io/
+- TikTok: https://www.tiktok.com/@eshansayhan
+- GitHub: https://github.com/eshansayhan
+
+## About
+
+Eshan Sayhan, dijital platformlarda içerik üreten bir içerik üreticisidir.
+
+Bu web sitesi Eshan Sayhan hakkında biyografik bilgiler, resmi sosyal medya bağlantıları ve TikTok video içerikleri hakkında bilgiler sunar.
+
+## Official Profiles
+
+- [Eshan Sayhan Official Website](https://eshansayhan.github.io/)
+- [Eshan Sayhan TikTok](https://www.tiktok.com/@eshansayhan)
+- [Eshan Sayhan GitHub](https://github.com/eshansayhan)
+
+## Biography
+
+- [Eshan Sayhan Biography](https://eshansayhan.github.io/bio.html)
+
+## TikTok
+
+Eshan Sayhan'ın resmi TikTok hesabı:
+
+https://www.tiktok.com/@eshansayhan
+
+TikTok profil sayfası:
+
+https://eshansayhan.github.io/tiktok.html
+
+## TikTok Videos
+
+- [Gülbiş Mardin](https://eshansayhan.github.io/tiktok-video-1.html)
+- [Midyat Mardin](https://eshansayhan.github.io/tiktok-video-2.html)
+- [Mardin Dargeçit Ilısu Balık](https://eshansayhan.github.io/tiktok-video-3.html)
+
+## Video Sources
+
+### Gülbiş Mardin
+
+TikTok:
+https://www.tiktok.com/@eshansayhan/video/7652102336243961096
+
+Website:
+https://eshansayhan.github.io/tiktok-video-1.html
+
+### Midyat Mardin
+
+TikTok:
+https://www.tiktok.com/@eshansayhan/video/7651324966625119509
+
+Website:
+https://eshansayhan.github.io/tiktok-video-2.html
+
+### Mardin Dargeçit Ilısu Balık
+
+TikTok:
+https://www.tiktok.com/@eshansayhan/video/7650998263885171988
+
+Website:
+https://eshansayhan.github.io/tiktok-video-3.html
+
+## Important Pages
+
+- https://eshansayhan.github.io/
+- https://eshansayhan.github.io/bio.html
+- https://eshansayhan.github.io/tiktok.html
+- https://eshansayhan.github.io/tiktok-video-1.html
+- https://eshansayhan.github.io/tiktok-video-2.html
+- https://eshansayhan.github.io/tiktok-video-3.html
+
+## Site Structure
+
+The website is the official web presence of Eshan Sayhan.
+
+The TikTok profile and TikTok video pages on this website refer to the official TikTok account @eshansayhan.
+
+## Sitemap
+
+https://eshansayhan.github.io/sitemap.xml
