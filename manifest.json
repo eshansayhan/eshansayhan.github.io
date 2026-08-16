@@ -1,0 +1,14 @@
+{
+  "name": "Eshan Sayhan",
+  "short_name": "Eshan",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "Eshan Sayhan resmi web sitesi.",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/eshansayhan/eshansayhan.github.io/refs/heads/main/eshan-sayhan.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
