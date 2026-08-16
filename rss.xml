@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+  <channel>
+
+    <title>Eshan Sayhan</title>
+
+    <link>https://eshansayhan.github.io/</link>
+
+    <description>
+      Eshan Sayhan resmi web sitesi. Biyografi, TikTok profili ve yeni TikTok video içerikleri.
+    </description>
+
+    <language>tr-TR</language>
+
+    <managingEditor>eshansayhan.github.io</managingEditor>
+
+    <webMaster>eshansayhan.github.io</webMaster>
+
+    <lastBuildDate>Mon, 17 Aug 2026 00:00:00 +0300</lastBuildDate>
+
+    <image>
+      <url>https://eshansayhan.github.io/images/eshan-sayhan.jpg</url>
+      <title>Eshan Sayhan</title>
+      <link>https://eshansayhan.github.io/</link>
+    </image>
+
+
+    <!-- VİDEO 1 -->
+
+    <item>
+
+      <title>Eshan Sayhan - Gülbiş Mardin</title>
+
+      <link>
+        https://eshansayhan.github.io/tiktok-video-1.html
+      </link>
+
+      <guid isPermaLink="true">
+        https://eshansayhan.github.io/tiktok-video-1.html
+      </guid>
+
+      <description>
+        Eshan Sayhan tarafından TikTok'ta paylaşılan Gülbiş Mardin videosu.
+      </description>
+
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0300</pubDate>
+
+      <category>TikTok</category>
+      <category>Mardin</category>
+
+    </item>
+
+
+    <!-- VİDEO 2 -->
+
+    <item>
+
+      <title>Eshan Sayhan - Midyat Mardin</title>
+
+      <link>
+        https://eshansayhan.github.io/tiktok-video-2.html
+      </link>
+
+      <guid isPermaLink="true">
+        https://eshansayhan.github.io/tiktok-video-2.html
+      </guid>
+
+      <description>
+        Eshan Sayhan tarafından TikTok'ta paylaşılan Midyat Mardin videosu.
+      </description>
+
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0300</pubDate>
+
+      <category>TikTok</category>
+      <category>Midyat</category>
+      <category>Mardin</category>
+
+    </item>
+
+
+    <!-- VİDEO 3 -->
+
+    <item>
+
+      <title>Eshan Sayhan - Mardin Dargeçit Ilısu Balık</title>
+
+      <link>
+        https://eshansayhan.github.io/tiktok-video-3.html
+      </link>
+
+      <guid isPermaLink="true">
+        https://eshansayhan.github.io/tiktok-video-3.html
+      </guid>
+
+      <description>
+        Eshan Sayhan tarafından TikTok'ta paylaşılan Mardin, Dargeçit ve Ilısu ile ilgili video.
+      </description>
+
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0300</pubDate>
+
+      <category>TikTok</category>
+      <category>Mardin</category>
+      <category>Dargeçit</category>
+      <category>Ilısu</category>
+
+    </item>
+
+
+  </channel>
+
+</rss>
