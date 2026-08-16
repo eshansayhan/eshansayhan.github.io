@@ -69,9 +69,9 @@
     <meta property="og:locale"
           content="tr_TR">
 
-    <!-- Eğer ileride profil fotoğrafı koyarsan:
+ 
     <meta property="og:image"
-          content="https://eshansayhan.github.io/images/eshan-sayhan.jpg">
+          content="https://raw.githubusercontent.com/eshansayhan/eshansayhan.github.io/refs/heads/main/eshan-sayhan.jpeg">
     -->
 
     <!-- =========================
