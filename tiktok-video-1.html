@@ -28,6 +28,7 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="video.other">
+
   <meta
     property="og:title"
     content="Eshan Sayhan - Gülbiş Mardin | TikTok"
@@ -43,9 +44,20 @@
     content="https://eshansayhan.github.io/tiktok-video-1.html"
   >
 
-  <meta property="og:site_name" content="Eshan Sayhan">
+  <meta
+    property="og:site_name"
+    content="Eshan Sayhan"
+  >
 
-  <!-- Person + VideoObject -->
+  <meta
+    property="og:image"
+    content="https://eshansayhan.github.io/images/tiktok-video-1.jpg"
+  >
+
+  <!-- ========================= -->
+  <!-- PERSON + WEBSITE + VIDEO -->
+  <!-- ========================= -->
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -58,12 +70,26 @@
         "url": "https://eshansayhan.github.io/",
         "image": {
           "@type": "ImageObject",
-          "url": "https://eshansayhan.github.io/images/eshan-sayhan.jpg"
+          "@id": "https://eshansayhan.github.io/#profileimage",
+          "url": "https://eshansayhan.github.io/images/eshan-sayhan.jpg",
+          "contentUrl": "https://eshansayhan.github.io/images/eshan-sayhan.jpg",
+          "caption": "Eshan Sayhan"
         },
         "sameAs": [
           "https://www.tiktok.com/@eshansayhan",
           "https://github.com/eshansayhan"
         ]
+      },
+
+      {
+        "@type": "WebSite",
+        "@id": "https://eshansayhan.github.io/#website",
+        "url": "https://eshansayhan.github.io/",
+        "name": "Eshan Sayhan",
+        "description": "Eshan Sayhan resmi web sitesi.",
+        "publisher": {
+          "@id": "https://eshansayhan.github.io/#person"
+        }
       },
 
       {
@@ -73,6 +99,12 @@
         "name": "Gülbiş Mardin",
 
         "description": "Eshan Sayhan tarafından TikTok'ta paylaşılan Gülbiş Mardin videosu.",
+
+        "thumbnailUrl": [
+          "https://eshansayhan.github.io/images/tiktok-video-1.jpg"
+        ],
+
+        "uploadDate": "2026-08-16T15:00:00+03:00",
 
         "url": "https://eshansayhan.github.io/tiktok-video-1.html",
 
@@ -96,16 +128,6 @@
         },
 
         "sameAs": "https://www.tiktok.com/@eshansayhan/video/7652102336243961096"
-      },
-
-      {
-        "@type": "WebSite",
-        "@id": "https://eshansayhan.github.io/#website",
-        "url": "https://eshansayhan.github.io/",
-        "name": "Eshan Sayhan",
-        "publisher": {
-          "@id": "https://eshansayhan.github.io/#person"
-        }
       }
 
     ]
@@ -113,42 +135,116 @@
   </script>
 
   <style>
+
     body {
       font-family: Arial, sans-serif;
       max-width: 900px;
-      margin: auto;
+      margin: 0 auto;
       padding: 30px 20px;
       line-height: 1.6;
+      background: #ffffff;
+      color: #111111;
     }
 
     h1 {
       font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 40px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 25px;
+    }
+
+    .profile img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .profile-name {
+      font-size: 20px;
+      font-weight: bold;
     }
 
     .video-container {
       display: flex;
       justify-content: center;
       margin-top: 30px;
+      width: 100%;
     }
 
     .back {
       display: inline-block;
       margin-top: 30px;
+      text-decoration: none;
     }
+
+    .tiktok-link {
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
   </style>
 
 </head>
+
 
 <body>
 
   <main>
 
-    <h1>Eshan Sayhan - Gülbiş Mardin</h1>
+    <!-- Profil -->
+
+    <div class="profile">
+
+      <img
+        src="https://eshansayhan.github.io/images/eshan-sayhan.jpg"
+        alt="Eshan Sayhan profil fotoğrafı"
+        width="70"
+        height="70"
+      >
+
+      <div>
+
+        <div class="profile-name">
+          Eshan Sayhan
+        </div>
+
+        <a
+          href="https://www.tiktok.com/@eshansayhan"
+          target="_blank"
+          rel="me noopener"
+        >
+          @eshansayhan
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- Video Başlığı -->
+
+    <h1>
+      Eshan Sayhan - Gülbiş Mardin
+    </h1>
 
     <p>
       Eshan Sayhan'ın TikTok'ta paylaştığı
       <strong>Gülbiş Mardin</strong> videosu.
     </p>
+
+
+    <!-- TikTok Video -->
 
     <div class="video-container">
 
@@ -209,6 +305,23 @@
 
     </div>
 
+
+    <!-- TikTok Link -->
+
+    <p>
+      <a
+        class="tiktok-link"
+        href="https://www.tiktok.com/@eshansayhan/video/7652102336243961096"
+        target="_blank"
+        rel="noopener"
+      >
+        TikTok'ta videoyu görüntüle
+      </a>
+    </p>
+
+
+    <!-- Profil Link -->
+
     <p>
       <a
         class="back"
@@ -219,6 +332,9 @@
     </p>
 
   </main>
+
+
+  <!-- TikTok Embed Script -->
 
   <script
     async
