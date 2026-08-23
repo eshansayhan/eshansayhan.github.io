@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
+    <channel>
+
+        <title>Eshan Sayhan - TikTok</title>
+
+        <link>https://eshansayhan.github.io/</link>
+
+        <description>
+            Eshan Sayhan resmi TikTok videoları ve içerikleri.
+        </description>
+
+        <language>tr-TR</language>
+
+        <atom:link
+            href="https://eshansayhan.github.io/feed.xml"
+            rel="self"
+            type="application/rss+xml" />
+
+        <item>
+
+            <title>Eshan Sayhan - TikTok Video 3</title>
+
+            <link>
+                https://eshansayhan.github.io/tiktok-video-3.html
+            </link>
+
+            <guid isPermaLink="true">
+                https://eshansayhan.github.io/tiktok-video-3.html
+            </guid>
+
+            <description>
+                Eshan Sayhan tarafından paylaşılan TikTok videosu.
+            </description>
+
+            <pubDate>Mon, 24 Aug 2026 00:00:00 +0300</pubDate>
+
+        </item>
+
+        <item>
+
+            <title>Eshan Sayhan - TikTok Video 2</title>
+
+            <link>
+                https://eshansayhan.github.io/tiktok-video-2.html
+            </link>
+
+            <guid isPermaLink="true">
+                https://eshansayhan.github.io/tiktok-video-2.html
+            </guid>
+
+            <description>
+                Eshan Sayhan tarafından paylaşılan TikTok videosu.
+            </description>
+
+            <pubDate>Sun, 23 Aug 2026 00:00:00 +0300</pubDate>
+
+        </item>
+
+        <item>
+
+            <title>Eshan Sayhan - TikTok Video 1</title>
+
+            <link>
+                https://eshansayhan.github.io/tiktok-video-1.html
+            </link>
+
+            <guid isPermaLink="true">
+                https://eshansayhan.github.io/tiktok-video-1.html
+            </guid>
+
+            <description>
+                Eshan Sayhan tarafından paylaşılan TikTok videosu.
+            </description>
+
+            <pubDate>Sat, 22 Aug 2026 00:00:00 +0300</pubDate>
+
+        </item>
+
+    </channel>
+
+</rss>
