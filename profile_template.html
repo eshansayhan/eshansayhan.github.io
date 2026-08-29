@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{NAME}} - Ziyaretçi Profili</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .profile-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+            gap: 20px;
+        }
+        .big-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .profile-details h1 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+            background: none;
+            -webkit-text-fill-color: var(--text-primary);
+        }
+        .website-link {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        .website-link:hover {
+            text-decoration: underline;
+        }
+        .comment-box {
+            background: rgba(15, 23, 42, 0.6);
+            padding: 20px;
+            border-radius: 12px;
+            border: 1px solid var(--glass-border);
+            line-height: 1.6;
+        }
+        .date {
+            margin-top: 15px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .back-link:hover {
+            color: var(--text-primary);
+        }
+    </style>
+</head>
+<body>
+    <div class="background-elements">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+    
+    <div class="container">
+        <main>
+            <div class="glass-card slide-up">
+                <div class="profile-header">
+                    <div class="big-avatar">{{INITIAL}}</div>
+                    <div class="profile-details">
+                        <h1>{{NAME}}</h1>
+                        <a href="{{WEBSITE}}" target="_blank" rel="noopener noreferrer" class="website-link">{{WEBSITE}}</a>
+                    </div>
+                </div>
+
+                <h2>Yorumu</h2>
+                <div class="comment-box">
+                    <p>{{COMMENT}}</p>
+                    <div class="date">{{DATE}}</div>
+                </div>
+
+                <a href="../index.html" class="back-link">← Ana Sayfaya Dön</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
