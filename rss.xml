@@ -2,12 +2,12 @@
 <rss version="2.0">
   <channel>
     <title>Eshan Sayhan | Blog</title>
-    <link>https://eshansayhan.github.io/blog.html</link>
+    <link>https://eshansayhan.github.io/blog</link>
     <description>Eshan Sayhan - Müzik, Sanat ve Teknoloji Yazıları</description>
     <language>tr</language>
     <item>
       <title>İlk Blog Yazım</title>
-      <link>https://eshansayhan.github.io/blog.html</link>
+      <link>https://eshansayhan.github.io/blog</link>
       <description>Eshan Sayhan resmi web sitesi ve blog sayfası yayında.</description>
       <pubDate>Mon, 30 Aug 2026 12:00:00 GMT</pubDate>
     </item>

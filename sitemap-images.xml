@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
    <url>
-      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <loc>https://eshansayhan.github.io/galeri</loc>
       <image:image>
          <image:loc>https://eshansayhan.github.io/EshanSayhan.jpeg</image:loc>
          <image:title>Eshan Sayhan Portre</image:title>
@@ -10,7 +10,7 @@
       </image:image>
    </url>
    <url>
-      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <loc>https://eshansayhan.github.io/galeri</loc>
       <image:image>
          <image:loc>https://eshansayhan.github.io/1.png</image:loc>
          <image:title>Eshan Sayhan Portre</image:title>
@@ -18,7 +18,7 @@
       </image:image>
    </url>
    <url>
-      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <loc>https://eshansayhan.github.io/galeri</loc>
       <image:image>
          <image:loc>https://eshansayhan.github.io/2.png</image:loc>
          <image:title>Eshan Sayhan Portre</image:title>
@@ -26,7 +26,7 @@
       </image:image>
    </url>
    <url>
-      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <loc>https://eshansayhan.github.io/galeri</loc>
       <image:image>
          <image:loc>https://eshansayhan.github.io/3.png</image:loc>
          <image:title>Eshan Sayhan Portre</image:title>
@@ -34,7 +34,7 @@
       </image:image>
    </url>
    <url>
-      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <loc>https://eshansayhan.github.io/galeri</loc>
       <image:image>
          <image:loc>https://eshansayhan.github.io/4.png</image:loc>
          <image:title>Eshan Sayhan Portre</image:title>
@@ -42,7 +42,7 @@
       </image:image>
    </url>
    <url>
-      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <loc>https://eshansayhan.github.io/galeri</loc>
       <image:image>
          <image:loc>https://eshansayhan.github.io/5.png</image:loc>
          <image:title>Eshan Sayhan Portre</image:title>
@@ -50,7 +50,7 @@
       </image:image>
    </url>
    <url>
-      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <loc>https://eshansayhan.github.io/galeri</loc>
       <image:image>
          <image:loc>https://eshansayhan.github.io/6.png</image:loc>
          <image:title>Eshan Sayhan Portre</image:title>

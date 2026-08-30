@@ -3,6 +3,6 @@
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
    <!-- Gelecekte eklenecek haber/blog içerikleri için şablon -->
    <url>
-      <loc>https://eshansayhan.github.io/blog.html</loc>
+      <loc>https://eshansayhan.github.io/blog</loc>
    </url>
 </urlset>

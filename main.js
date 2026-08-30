@@ -116,15 +116,15 @@ document.addEventListener('DOMContentLoaded', () => {
             if (e.key === 'Enter') {
                 const query = e.target.value.toLowerCase();
                 if (query.includes('müzik') || query.includes('music') || query.includes('spotify')) {
-                    window.location.href = 'music.html';
+                    window.location.href = 'music';
                 } else if (query.includes('iletişim') || query.includes('contact')) {
-                    window.location.href = 'iletisim.html';
+                    window.location.href = 'iletisim';
                 } else if (query.includes('hakkında') || query.includes('about') || query.includes('biyografi')) {
-                    window.location.href = 'about.html';
+                    window.location.href = 'about';
                 } else if (query.includes('galeri') || query.includes('gallery') || query.includes('foto')) {
-                    window.location.href = 'galeri.html';
+                    window.location.href = 'galeri';
                 } else if (query.includes('blog')) {
-                    window.location.href = 'blog.html';
+                    window.location.href = 'blog';
                 } else {
                     alert('Sonuç bulunamadı. Lütfen Müzik, Galeri, İletişim gibi kelimeler deneyin.');
                 }
