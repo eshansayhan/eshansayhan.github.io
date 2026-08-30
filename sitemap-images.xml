@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+   <url>
+      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <image:image>
+         <image:loc>https://eshansayhan.github.io/EshanSayhan.jpeg</image:loc>
+         <image:title>Eshan Sayhan Portre</image:title>
+         <image:caption>Eshan Sayhan - EshanSayhan.jpeg</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <image:image>
+         <image:loc>https://eshansayhan.github.io/1.png</image:loc>
+         <image:title>Eshan Sayhan Portre</image:title>
+         <image:caption>Eshan Sayhan - 1.png</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <image:image>
+         <image:loc>https://eshansayhan.github.io/2.png</image:loc>
+         <image:title>Eshan Sayhan Portre</image:title>
+         <image:caption>Eshan Sayhan - 2.png</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <image:image>
+         <image:loc>https://eshansayhan.github.io/3.png</image:loc>
+         <image:title>Eshan Sayhan Portre</image:title>
+         <image:caption>Eshan Sayhan - 3.png</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <image:image>
+         <image:loc>https://eshansayhan.github.io/4.png</image:loc>
+         <image:title>Eshan Sayhan Portre</image:title>
+         <image:caption>Eshan Sayhan - 4.png</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <image:image>
+         <image:loc>https://eshansayhan.github.io/5.png</image:loc>
+         <image:title>Eshan Sayhan Portre</image:title>
+         <image:caption>Eshan Sayhan - 5.png</image:caption>
+      </image:image>
+   </url>
+   <url>
+      <loc>https://eshansayhan.github.io/galeri.html</loc>
+      <image:image>
+         <image:loc>https://eshansayhan.github.io/6.png</image:loc>
+         <image:title>Eshan Sayhan Portre</image:title>
+         <image:caption>Eshan Sayhan - 6.png</image:caption>
+      </image:image>
+   </url>
+</urlset>

@@ -1,12 +1,19 @@
 {
   "name": "Eshan Sayhan",
   "short_name": "Eshan",
-  "start_url": "/",
+  "description": "Eshan Sayhan Official Digital Hub",
+  "start_url": "/index.html",
   "display": "standalone",
-  "description": "Eshan Sayhan resmi web sitesi.",
+  "background_color": "#0a0a0a",
+  "theme_color": "#20D5EC",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/eshansayhan/eshansayhan.github.io/refs/heads/main/eshan-sayhan.jpeg",
+      "src": "/EshanSayhan.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/EshanSayhan.jpeg",
       "sizes": "512x512",
       "type": "image/jpeg"
     }

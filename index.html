@@ -3,62 +3,290 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ziyaretçi Defteri & Profiller</title>
+    <title>Eshan Sayhan | Ana Sayfa</title>
+    
+    <!-- Temel SEO -->
+    <meta name="description" content="Eshan Sayhan resmi web sitesi. Dijital varlıklar, sosyal ağlar, biyografi ve tüm projeler.">
+    <meta name="keywords" content="Eshan Sayhan, Sanatçı, İçerik Üretici, Creator, Person, Müzik, Entity">
+    <meta name="author" content="Eshan Sayhan">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="https://eshansayhan.github.io/">
+    <meta property="og:image" content="https://eshansayhan.github.io/EshanSayhan.jpeg">
+    <meta property="og:title" content="Eshan Sayhan">
+    <meta property="og:description" content="Eshan Sayhan resmi web sitesi. Tüm platformlardaki varlıkların merkezi.">
+    
+    <!-- Fontlar & İkonlar -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stil Dosyası -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- JSON-LD Entity -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": ["Person", "Artist"],
+          "@id": "https://eshansayhan.github.io/#eshan-sayhan",
+          "name": "Eshan Sayhan",
+          "url": "https://eshansayhan.github.io/",
+          "jobTitle": "Creator",
+          "image": "https://eshansayhan.github.io/EshanSayhan.jpeg",
+          "sameAs": [
+        "https://open.spotify.com/intl-tr/artist/5vrt0Tlu4QXZ30T45QVbnP",
+        "https://music.apple.com/tr/artist/eshan-sayhan/1661555386",
+        "https://play.google.com/store/apps/dev?id=6824089094482209744",
+        "https://www.youtube.com/@eshansayhan",
+        "https://github.com/eshansayhan",
+        "https://sketchfab.com/EshanSayhan",
+        "https://steamcommunity.com/id/eshansayhan/",
+        "https://www.facebook.com/eshansayhan",
+        "https://soundcloud.com/eshansayhan",
+        "https://gravatar.com/eshansayhan",
+        "https://grokipedia.com/page/eshan-sayhan",
+        "https://eshansayhan.fandom.com",
+        "https://www.tiktok.com/@eshansayhan",
+        "https://www.instagram.com/eshansayhan",
+        "https://www.imdb.com/name/nm14363666/"
+      ]
+        }
+      ]
+    }
+    </script>
+    <link rel="canonical" href="https://eshansayhan.github.io/">
+    <link rel="alternate" hreflang="tr" href="https://eshansayhan.github.io/">
+    <link rel="alternate" hreflang="en" href="https://eshansayhan.github.io/en/">
+    <link rel="alternate" hreflang="x-default" href="https://eshansayhan.github.io/en/">
+
+        <!-- FAQ & AggregateRating Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Eshan Sayhan kimdir?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Eshan Sayhan, 1996 Mardin doğumlu, İstanbul'da yaşayan dijital içerik üreticisi, YouTuber, müzisyen ve geliştiricidir."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Eshan Sayhan'ın müziklerine nereden ulaşabilirim?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Spotify, Apple Music, YouTube ve SoundCloud üzerinden tüm eserlerime ulaşabilirsiniz."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "İletişim ve işbirliği için nasıl ulaşabilirim?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "İletişim sayfasındaki formu doldurarak veya sosyal medya hesaplarımdan (Instagram, TikTok) bana mesaj göndererek ulaşabilirsiniz."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "CreativeWork",
+          "name": "Eshan Sayhan Portfolio",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "1450"
+          }
+        },
+        {
+          "@type": "LocalBusiness",
+          "name": "Eshan Sayhan Studio",
+          "image": "https://eshansayhan.github.io/EshanSayhan.jpeg",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Istanbul",
+            "addressCountry": "TR"
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- PWA & RSS -->
+    <link rel="manifest" href="manifest.json">
+    <link rel="alternate" type="application/rss+xml" title="Eshan Sayhan Blog" href="rss.xml">
+    <script src="main.js" defer></script>
+
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
 </head>
 <body>
-    <div class="background-elements">
-        <div class="blob blob-1"></div>
-        <div class="blob blob-2"></div>
-    </div>
-    
-    <div class="container">
-        <header class="fade-in">
-            <h1>Ziyaretçi Defteri</h1>
-            <p>Bir yorum bırakın, otomatik olarak bir profil sayfası kazanın ve sitenize backlink sağlayın.</p>
-        </header>
 
-        <main>
-            <div class="content-wrapper">
-                <section class="glass-card form-section slide-up">
-                    <h2>Yorum Yap</h2>
-                    <form id="commentForm">
-                        <div class="form-group">
-                            <label for="name">Ad Soyad</label>
-                            <input type="text" id="name" name="name" required placeholder="John Doe" autocomplete="name">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="website">Web Siteniz</label>
-                            <input type="url" id="website" name="website" required placeholder="https://sizinsiteniz.com" autocomplete="url">
-                        </div>
-                        
-                        <div class="form-group">
-                            <label for="comment">Yorumunuz</label>
-                            <textarea id="comment" name="comment" rows="4" required placeholder="Harika bir proje..."></textarea>
-                        </div>
-                        
-                        <button type="submit" class="btn-primary" id="submitBtn">
-                            <span class="btn-text">Gönder</span>
-                            <div class="loader" id="btnLoader"></div>
-                        </button>
-                        <div id="statusMessage" class="status-message"></div>
-                    </form>
-                </section>
+    <!-- ÜST MENÜ (Header & Navigation) -->
+    <header class="site-header">
+        <nav class="nav-container" aria-label="Ana Navigasyon">
+            <a href="index.html" class="logo" title="Eshan Sayhan Ana Sayfa" aria-label="Eshan Sayhan Resmi Logo">
+                <i class="fa-solid fa-cube"></i> Eshan
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımda</a></li>
+                <li><a href="music.html">Müzik</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="galeri.html">Galeri</a></li>
+                <li><a href="links.html">Bağlantılar</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+                <li class="lang-switch"><a href="en/index.html" style="color:#20D5EC; font-weight:bold;"><i class="fa-solid fa-globe"></i> EN</a></li>
+            
+                <li class="theme-toggle"><button id="theme-toggle-btn" title="Tema Değiştir" style="background:transparent; border:none; color:#20D5EC; cursor:pointer; font-size:1.2rem;"><i id="theme-icon" class="fa-solid fa-moon"></i></button></li>
+            
+                <li class="search-container">
+                    <i class="fa-solid fa-magnifying-glass" style="color:var(--text-secondary); margin-right:8px;"></i>
+                    <input type="text" id="site-search" placeholder="Ara / Search...">
+                </li>
+            </ul>
+        </nav>
+    </header>
 
-                <section class="glass-card profiles-section slide-up delay-1">
-                    <h2>Profiller</h2>
-                    <p class="subtitle">Son yorum yapanların profilleri burada listelenir.</p>
-                    <div class="profiles-list" id="profilesList">
-                        <!-- PROFILES_START -->
-                        <!-- PROFILES_END -->
+    <!-- ANA İÇERİK -->
+    <main>
+        <div class="profile-header">
+            <!-- Kapak Fotoğrafı -->
+            <div class="cover-photo" title="Kapak Fotoğrafı Animasyonu" aria-label="Eshan Sayhan Dinamik Kapak"></div>
+        </div>
+
+        <div class="container">
+            <!-- Biyografi Başlığı ve Alt Açıklamalar (SEO Semantics) -->
+            <section class="profile-info reveal" aria-labelledby="profile-name-heading">
+                
+                <!-- Anlamsal Resim Etiketi (Figure, Figcaption & Alt) -->
+                <figure class="profile-figure">
+                    <div class="profile-avatar" title="Eshan Sayhan Profil Fotoğrafı" aria-label="Eshan Sayhan Profil Resmi" role="img"></div>
+                    <figcaption class="avatar-caption">Eshan Sayhan - Resmi Profil Fotoğrafı</figcaption>
+                </figure>
+                
+                <h1 id="profile-name-heading" class="profile-name">
+                    Eshan Sayhan <i class="fa-solid fa-circle-check verified" title="Doğrulanmış Profil"></i>
+                </h1>
+                
+                <h2 class="profile-title" title="Sanatçı ve İçerik Üretici Unvanı">YouTuber • Müzik Yapıcı • Sosyal Medya Editörü</h2>
+                
+                <p class="profile-bio" title="Kısa Biyografi Açıklaması">
+                    03 Ocak 1996, Mardin doğumlu; şu an İstanbul'da yaşayan çok yönlü bir dijital sanatçı. Bilgisayar üzerinde video düzenleme, müzik oluşturma ve sosyal medya içerikleriyle dijital dünyada iz bırakıyor.
+                </p>
+                
+                <!-- İstatistikler -->
+                <div class="profile-stats" aria-label="Profil İstatistikleri">
+                    <div class="stat-item" title="Takipçi Sayısı">
+                        <span class="stat-value">84.5K</span>
+                        <span class="stat-label">Takipçi</span>
                     </div>
-                </section>
-            </div>
-        </main>
-    </div>
+                    <div class="stat-item" title="Dinlenme Sayısı">
+                        <span class="stat-value">12M</span>
+                        <span class="stat-label">Dinlenme</span>
+                    </div>
+                    <div class="stat-item" title="SEO Varlık Sınıfı">
+                        <span class="stat-value">Tier A</span>
+                        <span class="stat-label">Entity Rank</span>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+        <section class="faq-section reveal">
+            <h3><i class="fa-solid fa-circle-question"></i> Sıkça Sorulan Sorular</h3>
+            <details class="faq-item">
+                <summary>Eshan Sayhan kimdir?</summary>
+                <p>Eshan Sayhan, dijital içerik üreticisi, müzisyen ve geliştiricidir.</p>
+            </details>
+            <details class="faq-item">
+                <summary>Eshan Sayhan'ın müziklerine nereden ulaşabilirim?</summary>
+                <p>Spotify, Apple Music, YouTube ve SoundCloud üzerinden tüm eserlerime ulaşabilirsiniz.</p>
+            </details>
+            <details class="faq-item">
+                <summary>İletişim ve işbirliği için nasıl ulaşabilirim?</summary>
+                <p>İletişim sayfasındaki formu doldurarak veya sosyal medya hesaplarımdan (Instagram, TikTok) bana mesaj göndererek ulaşabilirsiniz.</p>
+            </details>
+        </section>
+    </main>
 
-    <script src="app.js"></script>
+    <!-- ALT BİLGİ (Footer - Content Grid) -->
+    <footer class="site-footer">
+        <section class="content-grid reveal" aria-label="Bağlantı Kartları">
+            
+            <!-- Müzik Platformları -->
+            <article class="card reveal">
+                <h3 class="card-title" title="Müzik ve Yayın Linkleri"><i class="fa-solid fa-music"></i> Müzik & Yayın (Tier A)</h3>
+                <p title="Müzik platformları açıklaması">Eserlerimi dünyanın önde gelen streaming platformlarından dinleyin.</p>
+                <nav class="link-list" aria-label="Müzik Platformları Navigasyon">
+                    <a href="music.html" class="link-btn spotify-btn" title="Spotify Profiline Git" rel="noopener">
+                        <i class="fa-brands fa-spotify"></i> Spotify
+                    </a>
+                    <a href="music.html" class="link-btn" title="Apple Music Profiline Git" rel="noopener">
+                        <i class="fa-brands fa-apple"></i> Apple Music
+                    </a>
+                </nav>
+            </article>
+
+            <!-- Knowledge Graph Bağlantıları -->
+            <article class="card reveal">
+                <h3 class="card-title" title="Knowledge Graph Kayıtları"><i class="fa-solid fa-database"></i> Knowledge Graph</h3>
+                <p title="Otorite Dosyaları Açıklaması">Uluslararası otorite dosyaları ve semantik web bağlantılarım.</p>
+                <nav class="link-list" aria-label="Knowledge Graph Linkleri">
+                    <a href="#" class="link-btn wiki-btn" title="Wikidata Q-ID Sayfası" rel="noopener">
+                        <i class="fa-brands fa-wikipedia-w"></i> Wikidata
+                    </a>
+                    <a href="#" class="link-btn" title="DBpedia Sayfası" rel="noopener">
+                        <i class="fa-solid fa-circle-nodes"></i> DBpedia
+                    </a>
+                </nav>
+            </article>
+
+            <!-- Sosyal Medya -->
+            <article class="card reveal">
+                <h3 class="card-title" title="Sosyal Medya Linkleri"><i class="fa-solid fa-hashtag"></i> Sosyal Medya</h3>
+                <p title="Sosyal Medya Açıklaması">Günlük paylaşımlarım ve güncellemeler için beni takip edin.</p>
+                <nav class="link-list" aria-label="Sosyal Medya Navigasyon">
+                    <a href="#" class="link-btn insta-btn" title="Instagram Profiline Git" rel="noopener">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </a>
+                    <a href="#" class="link-btn" title="GitHub Profiline Git" rel="noopener">
+                        <i class="fa-brands fa-github"></i> GitHub
+                    </a>
+                </nav>
+            </article>
+        </section>
+
+        <div class="footer-legal">
+            <ul class="legal-links">
+                <li><a href="gizlilik-politikasi.html">Gizlilik Politikası</a></li>
+                <li><a href="cerez-politikasi.html">Çerez Politikası</a></li>
+                <li><a href="kullanim-sartlari.html">Kullanım Şartları</a></li>
+                <li><a href="kvkk.html">KVKK</a></li>
+            
+                
+                <li class="search-container">
+                    <i class="fa-solid fa-magnifying-glass" style="color:var(--text-secondary); margin-right:8px;"></i>
+                    <input type="text" id="site-search" placeholder="Ara / Search...">
+                </li>
+            </ul>
+            <p class="copyright" title="Telif Hakkı Uyarı Metni">&copy; 2026 Eshan Sayhan. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+
 </body>
 </html>

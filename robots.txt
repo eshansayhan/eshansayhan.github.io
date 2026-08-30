@@ -1,4 +1,53 @@
 User-agent: *
 Allow: /
 
+# Google Search
+User-agent: Googlebot
+Allow: /
+
+# Google Images
+User-agent: Googlebot-Image
+Allow: /
+
+# Google Video
+User-agent: Googlebot-Video
+Allow: /
+
+# Google News
+User-agent: Googlebot-News
+Allow: /
+
+# Google Search testing
+User-agent: Google-InspectionTool
+Allow: /
+
+# Google Ads
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+# AdSense
+User-agent: Mediapartners-Google
+Allow: /
+
+# Other Google crawlers
+User-agent: GoogleOther
+Allow: /
+
+User-agent: GoogleOther-Image
+Allow: /
+
+User-agent: GoogleOther-Video
+Allow: /
+
+# Vertex AI
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# XML Sitemaps
 Sitemap: https://eshansayhan.github.io/sitemap.xml
+Sitemap: https://eshansayhan.github.io/sitemap-images.xml
+Sitemap: https://eshansayhan.github.io/sitemap-videos.xml
+Sitemap: https://eshansayhan.github.io/sitemap-news.xml
