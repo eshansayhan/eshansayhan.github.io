@@ -1,85 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Eshan Sayhan Haberleri &amp; Güncellemeleri</title>
+    <link>https://eshansayhan.github.io/</link>
+    <description>Eshan Sayhan'dan en son videolar, müzikler, blog yazıları ve güncellemeler.</description>
+    <language>tr-tr</language>
+    <atom:link href="https://eshansayhan.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Benler Gitti - Cilt Bakımı Değişimi Videosu Yayında!</title>
+      <link>https://eshansayhan.github.io/benler-gitti-cilt-bakimi.html</link>
+      <guid isPermaLink="true">https://eshansayhan.github.io/benler-gitti-cilt-bakimi.html</guid>
+      <pubDate>Tue, 08 Sep 2026 08:00:00 +0300</pubDate>
+      <description>Cilt bakımı ve inanılmaz değişim sürecimi anlattığım yeni TikTok videom siteme eklendi. Hemen izleyin!</description>
+    </item>
 
-<rss version="2.0"
-     xmlns:atom="http://www.w3.org/2005/Atom">
-
-    <channel>
-
-        <title>Eshan Sayhan - TikTok</title>
-
-        <link>https://eshansayhan.github.io/</link>
-
-        <description>
-            Eshan Sayhan resmi TikTok videoları ve içerikleri.
-        </description>
-
-        <language>tr-TR</language>
-
-        <atom:link
-            href="https://eshansayhan.github.io/feed.xml"
-            rel="self"
-            type="application/rss+xml" />
-
-        <item>
-
-            <title>Eshan Sayhan - TikTok Video 3</title>
-
-            <link>
-                https://eshansayhan.github.io/tiktok-video-3.html
-            </link>
-
-            <guid isPermaLink="true">
-                https://eshansayhan.github.io/tiktok-video-3.html
-            </guid>
-
-            <description>
-                Eshan Sayhan tarafından paylaşılan TikTok videosu.
-            </description>
-
-            <pubDate>Mon, 24 Aug 2026 00:00:00 +0300</pubDate>
-
-        </item>
-
-        <item>
-
-            <title>Eshan Sayhan - TikTok Video 2</title>
-
-            <link>
-                https://eshansayhan.github.io/tiktok-video-2.html
-            </link>
-
-            <guid isPermaLink="true">
-                https://eshansayhan.github.io/tiktok-video-2.html
-            </guid>
-
-            <description>
-                Eshan Sayhan tarafından paylaşılan TikTok videosu.
-            </description>
-
-            <pubDate>Sun, 23 Aug 2026 00:00:00 +0300</pubDate>
-
-        </item>
-
-        <item>
-
-            <title>Eshan Sayhan - TikTok Video 1</title>
-
-            <link>
-                https://eshansayhan.github.io/tiktok-video-1.html
-            </link>
-
-            <guid isPermaLink="true">
-                https://eshansayhan.github.io/tiktok-video-1.html
-            </guid>
-
-            <description>
-                Eshan Sayhan tarafından paylaşılan TikTok videosu.
-            </description>
-
-            <pubDate>Sat, 22 Aug 2026 00:00:00 +0300</pubDate>
-
-        </item>
-
-    </channel>
-
+    <item>
+      <title>Yeni Orijinal TikTok Sesim Yayında!</title>
+      <link>https://eshansayhan.github.io/orijinal-ses.html</link>
+      <guid isPermaLink="true">https://eshansayhan.github.io/orijinal-ses.html</guid>
+      <pubDate>Tue, 08 Sep 2026 08:30:00 +0300</pubDate>
+      <description>Videolarınızda kullanabileceğiniz orijinal TikTok sesim yayında. Hemen sitemden dinleyin ve TikTok'ta kullanın.</description>
+    </item>
+    
+    <item>
+      <title>Eshan Sayhan Müzikleri Yayında</title>
+      <link>https://eshansayhan.github.io/music.html</link>
+      <guid isPermaLink="true">https://eshansayhan.github.io/music.html</guid>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0300</pubDate>
+      <description>Tüm platformlardaki müzik eserlerime artık web sitemden tek tıkla ulaşabilirsiniz.</description>
+    </item>
+  </channel>
 </rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+  <channel>
+    <title>Eshan Sayhan Mağazası</title>
+    <link>https://eshansayhan.github.io</link>
+    <description>Eshan Sayhan'ın dijital ürünleri, koleksiyonları ve özel projeleri.</description>
+    
+    <!-- Örnek Dijital Ürün Şablonu -->
+    <item>
+      <g:id>3D-MODEL-001</g:id>
+      <g:title>Eshan Sayhan Özel 3D Karakter Modeli</g:title>
+      <g:description>Tamamen Eshan Sayhan tarafından tasarlanmış yüksek kaliteli ve detaylı 3D karakter modeli. Oyunlarda veya animasyon projelerinde kullanıma uygundur.</g:description>
+      <g:link>https://eshansayhan.github.io/3d-model.html</g:link>
+      <g:image_link>https://eshansayhan.github.io/EshanSayhan.jpeg</g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in_stock</g:availability>
+      <g:price>49.99 TRY</g:price>
+      <g:brand>Eshan Sayhan</g:brand>
+      <g:google_product_category>123</g:google_product_category>
+    </item>
+    
+    <!-- İleride Eklenecek Müzik/Albüm Örneği -->
+    <item>
+      <g:id>MUSIC-TRACK-001</g:id>
+      <g:title>Eshan Sayhan - Orijinal Ses Paketi</g:title>
+      <g:description>İçerik üreticileri için TikTok ve YouTube videolarında kullanıma uygun orijinal sesler ve müzik paketleri.</g:description>
+      <g:link>https://eshansayhan.github.io/orijinal-ses.html</g:link>
+      <g:image_link>https://eshansayhan.github.io/EshanSayhan.jpeg</g:image_link>
+      <g:condition>new</g:condition>
+      <g:availability>in_stock</g:availability>
+      <g:price>9.99 TRY</g:price>
+      <g:brand>Eshan Sayhan Music</g:brand>
+      <g:google_product_category>123</g:google_product_category>
+    </item>
+  </channel>
+</rss>
