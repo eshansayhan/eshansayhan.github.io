@@ -5,63 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Destek & Bağış - Eshan Sayhan | IBAN Bilgileri</title>
     
-    <!-- Temel SEO -->
     <meta name="description" content="Eshan Sayhan'a destek olmak ve bağış yapmak için güncel IBAN ve banka bilgilerine bu sayfadan ulaşabilirsiniz. Katkılarınız için teşekkürler.">
-    <meta name="keywords" content="Eshan Sayhan destek, bağış, iban, yapı kredi, bağış yap, sponsorluk, Eshan Sayhan iban">
-    <meta name="author" content="Eshan Sayhan">
-    <meta name="robots" content="index, follow">
     
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://eshansayhan.github.io/destek">
-    <meta property="og:image" content="https://eshansayhan.github.io/EshanSayhan.jpeg">
-    <meta property="og:title" content="Destek & Bağış - Eshan Sayhan">
-    <meta property="og:description" content="Eshan Sayhan'a destek olmak ve bağış yapmak için güncel IBAN bilgilerine ulaşın.">
-    
-    <!-- Fontlar & İkonlar -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Stil Dosyası -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Canonical & Dil Ayarları -->
-    <link rel="canonical" href="https://eshansayhan.github.io/destek">
-    <link rel="alternate" hreflang="tr" href="https://eshansayhan.github.io/destek">
-    
-    <!-- JSON-LD SEO Schema -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Destek & Bağış - Eshan Sayhan",
-      "description": "Eshan Sayhan'a bağış ve destek sağlamak için IBAN bilgileri.",
-      "url": "https://eshansayhan.github.io/destek",
-      "mainEntity": {
-        "@type": "Person",
-        "name": "Eshan Sayhan",
-        "url": "https://eshansayhan.github.io"
-      }
-    }
-    </script>
-
-    <!-- Google AdSense (Aktif etmek için aşağıdaki kodu yorumdan çıkarın) 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
-    -->
-
-    <!-- Google Analytics (GA4) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
-    </script>
-    
     <style>
         .donation-section {
             text-align: center;
             padding: 4rem 1rem;
+            color: #ffffff; /* Garantili beyaz metin */
         }
         .donation-card {
             background: rgba(32, 213, 236, 0.05);
@@ -74,15 +28,15 @@
         }
         .donation-card h2 {
             margin-bottom: 1.5rem;
-            color: var(--text-primary, #fff);
+            color: #ffffff;
         }
         .donation-card p {
-            color: var(--text-secondary, #aaa);
+            color: #aaaaaa;
             margin-bottom: 2rem;
             line-height: 1.6;
         }
         .iban-box {
-            background: rgba(0, 0, 0, 0.2);
+            background: rgba(0, 0, 0, 0.4);
             padding: 1.5rem;
             border-radius: 8px;
             margin-bottom: 1.5rem;
@@ -102,16 +56,17 @@
             font-family: monospace;
             font-size: 1.25rem;
             letter-spacing: 1px;
-            background: #111;
+            background: #111111;
             padding: 10px;
             border-radius: 6px;
             user-select: all;
             margin: 10px 0;
             word-break: break-all;
+            color: #ffffff;
         }
         .copy-btn {
             background: #20D5EC;
-            color: #000;
+            color: #000000;
             border: none;
             padding: 12px 24px;
             font-size: 1rem;
@@ -127,25 +82,9 @@
             background: #18a8ba;
             transform: translateY(-2px);
         }
-        .copy-btn i {
-            font-size: 1.1rem;
-        }
-        /* Reklam Alanı */
-        .ad-container {
-            margin: 2rem auto;
-            text-align: center;
-            min-height: 90px;
-            background: rgba(255,255,255,0.02);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 8px;
-            color: #666;
-            font-size: 0.9rem;
-        }
-    </script>
+    </style>
 </head>
-<body>
+<body style="background-color: #0a0a0a; color: #ffffff;">
 
     <!-- ÜST MENÜ -->
     <header class="site-header">
@@ -157,38 +96,17 @@
                 <li><a href="/">Ana Sayfa</a></li>
                 <li><a href="about">Hakkımda</a></li>
                 <li><a href="music">Müzik</a></li>
-                <li><a href="blog">Blog</a></li>
-                <li><a href="galeri">Galeri</a></li>
-                <li><a href="links">Bağlantılar</a></li>
-                <li><a href="iletisim">İletişim</a></li>
                 <li><a href="destek" class="active" style="color: #20D5EC;">Destek</a></li>
-                <li class="lang-switch"><a href="/en/destek" style="color:#20D5EC; font-weight:bold;"><i class="fa-solid fa-globe"></i> EN</a></li>
-            
-                <li class="theme-toggle"><button id="theme-toggle-btn" title="Tema Değiştir" style="background:transparent; border:none; color:#20D5EC; cursor:pointer; font-size:1.2rem;"><i id="theme-icon" class="fa-solid fa-moon"></i></button></li>
             </ul>
         </nav>
     </header>
 
     <!-- ANA İÇERİK -->
     <main>
-        <div class="container">
+        <div class="container" style="min-height: 500px; padding-top: 50px;">
             <section class="donation-section">
-                <h1>Destek & Bağış</h1>
-                <p>İçerik üretimine ve müzik projelerime destek olmak için aşağıdaki IBAN bilgilerini kullanabilirsiniz.</p>
-
-                <!-- AdSense Reklam Alanı (Üst) (Aktif etmek için aşağıdaki kodları yorumdan çıkarın) 
-                <div class="ad-container">
-                    <ins class="adsbygoogle"
-                         style="display:block"
-                         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-                         data-ad-slot="XXXXXXXXXX"
-                         data-ad-format="auto"
-                         data-full-width-responsive="true"></ins>
-                    <script>
-                         (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                -->
+                <h1 style="font-size: 2.5rem; margin-bottom: 15px;">Destek & Bağış</h1>
+                <p style="font-size: 1.1rem; max-width: 600px; margin: 0 auto;">İçerik üretimine ve müzik projelerime destek olmak için aşağıdaki IBAN bilgilerini kullanabilirsiniz.</p>
 
                 <div class="donation-card">
                     <h2><i class="fa-solid fa-hand-holding-dollar"></i> Banka Havalesi / EFT</h2>
@@ -213,20 +131,6 @@
                     </div>
                 </div>
 
-                <!-- AdSense Reklam Alanı (Alt) (Aktif etmek için aşağıdaki kodları yorumdan çıkarın) 
-                <div class="ad-container">
-                    <ins class="adsbygoogle"
-                         style="display:block"
-                         data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
-                         data-ad-slot="XXXXXXXXXX"
-                         data-ad-format="auto"
-                         data-full-width-responsive="true"></ins>
-                    <script>
-                         (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
-                </div>
-                -->
-
             </section>
         </div>
     </main>
@@ -234,13 +138,7 @@
     <!-- ALT BİLGİ -->
     <footer class="site-footer">
         <div class="footer-legal">
-            <ul class="legal-links">
-                <li><a href="gizlilik-politikasi">Gizlilik Politikası</a></li>
-                <li><a href="cerez-politikasi">Çerez Politikası</a></li>
-                <li><a href="kullanim-sartlari">Kullanım Şartları</a></li>
-                <li><a href="kvkk">KVKK</a></li>
-            </ul>
-            <p class="copyright">&copy; 2026 Eshan Sayhan. Tüm Hakları Saklıdır.</p>
+            <p class="copyright" style="text-align: center;">&copy; 2026 Eshan Sayhan. Tüm Hakları Saklıdır.</p>
         </div>
     </footer>
 
@@ -248,28 +146,20 @@
     <script>
         function copyIban() {
             var ibanText = document.getElementById("iban-text").innerText;
-            // Boşlukları temizle (Eğer boşluklu yazılırsa)
             ibanText = ibanText.replace(/\s+/g, '');
-            
             navigator.clipboard.writeText(ibanText).then(function() {
                 var copyBtn = document.getElementById("copyBtn");
                 var originalHtml = copyBtn.innerHTML;
-                
                 copyBtn.innerHTML = '<i class="fa-solid fa-check"></i> Kopyalandı!';
                 copyBtn.style.background = '#4CAF50';
                 copyBtn.style.color = '#fff';
-                
                 setTimeout(function() {
                     copyBtn.innerHTML = originalHtml;
                     copyBtn.style.background = '#20D5EC';
                     copyBtn.style.color = '#000';
                 }, 3000);
-            }).catch(function(err) {
-                console.error('Kopyalama işlemi başarısız: ', err);
-                alert("Kopyalama başarısız oldu. Lütfen manuel olarak kopyalayınız.");
             });
         }
     </script>
-    <!-- <script src="main.js" defer></script> -->
 </body>
 </html>
