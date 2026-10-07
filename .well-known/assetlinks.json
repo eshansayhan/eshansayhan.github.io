@@ -1,1 +1,16 @@
-JSON dosyası oluşturmak için bir alan adı girin
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.eshansayhan.hfstream",
+      "sha256_cert_fingerprints": [
+        "1B:98:46:61:52:E1:CA:93:92:5F:78:14:44:7F:40:E9:05:5D:C3:B4:99:1E:C4:E1:91:9E:A3:14:FA:F7:50:A3",
+        "91:90:FC:A3:6A:C4:52:72:47:4E:E0:0A:B6:88:ED:32:65:D3:E8:EF:7E:73:0B:BE:35:84:9A:6D:91:66:D8:C4",
+        "8E:D2:1F:15:EB:C2:B9:A3:F8:E2:E8:7C:EA:E0:C0:E7:48:90:C2:53:FF:3E:7D:4F:FD:DD:50:B0:75:0A:C7:82"
+      ]
+    }
+  }
+]
