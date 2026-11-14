@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Arrow Escape – YouTube Playables Edition</title>
+    <!-- YouTube Playables Official SDK -->
+    <script src="https://www.youtube.com/game_api/v1/playables.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <!-- Top Navigation Bar -->
+        <header id="top-bar">
+            <div id="level-info">
+                <span id="diff-tag">Orta</span>
+                <span id="level-title">Bölüm 1</span>
+            </div>
+            <div id="moves-info">Hamle: <span id="move-count">0</span></div>
+            <div id="stars-display">⭐⭐⭐</div>
+        </header>
+
+        <!-- Main Interactive Canvas -->
+        <main id="canvas-wrapper">
+            <canvas id="game-canvas"></canvas>
+        </main>
+
+        <!-- Control Buttons Bar -->
+        <footer id="controls-bar">
+            <button id="btn-undo" class="btn-action">↩️ Geri Al</button>
+
+            <button id="btn-restart" class="btn-action">🔄 Yeniden</button>
+            <button id="btn-hint" class="btn-action btn-hint">💡 İpucu (<span id="hint-count">3</span>)</button>
+        </footer>
+    </div>
+
+    <!-- Complete YouTube Playables JS Game Bundle -->
+    <script src="game.js"></script>
+</body>
+</html>
